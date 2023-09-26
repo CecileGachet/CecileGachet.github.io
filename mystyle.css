@@ -20,6 +20,10 @@ a.language:link, a.language:visited {
   text-decoration: none;
 }
 
+li {
+padding-bottom : 50px;
+}
+
 a.page:link, a.page:visited {
   color: white;
   text-decoration: none;
