@@ -20,6 +20,11 @@ color: navy;
 margin-top: 10px;
 margin-bottom: 5px;}
 
+h3    {
+color: navy;
+margin-top: 10px;
+margin-bottom: 5px;}
+
 a.language:link, a.language:visited {
   color: navy;
   text-decoration: none;
