@@ -115,6 +115,11 @@ table.band td:nth-child(9) {
   width: 15%;
 }
 
+td{
+  text-align: center;
+}
+
+
 li {
 padding-bottom: 15px;
 }
