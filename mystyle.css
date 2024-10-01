@@ -25,6 +25,10 @@ color: navy;
 margin-top: 10px;
 margin-bottom: 5px;}
 
+em      {
+color: navy;
+font-style: normal;}
+
 a.language:link, a.language:visited {
   color: navy;
   text-decoration: none;
