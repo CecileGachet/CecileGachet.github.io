@@ -29,6 +29,13 @@ em      {
 color: navy;
 font-style: normal;}
 
+em.new      {
+color: #d30017;
+font-style: normal;
+font-size: 1.4em;
+text-shadow: 1px 1px navy;}
+
+
 a.language:link, a.language:visited {
   color: navy;
   text-decoration: none;
@@ -44,12 +51,12 @@ a.page:link, a.page:visited {
 }
 
 a.language:hover {
-  color: indianred;
+  color: #d30017;
   text-decoration: none;
 }
 
 a.page:hover {
-  color: indianred;
+  color: #d30017;
   text-decoration: none;
 }
 
@@ -59,7 +66,7 @@ a:link, a:visited{
 }
 
 a:hover {
-  color: indianred;
+  color: #d30017;
   text-decoration: none;
 }
 
