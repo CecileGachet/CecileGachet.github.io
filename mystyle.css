@@ -21,12 +21,16 @@ margin-top: 10px;
 margin-bottom: 5px;}
 
 h3    {
-color: navy;
+color: #087ca7;
 margin-top: 10px;
 margin-bottom: 5px;}
 
 em      {
 color: navy;
+font-style: normal;}
+
+em.banner   {
+color: #d30017;
 font-style: normal;}
 
 em.new      {
@@ -42,7 +46,7 @@ a.language:link, a.language:visited {
 }
 
 li {
-padding-bottom : 50px;
+padding-bottom : 15px;
 }
 
 a.page:link, a.page:visited {
@@ -85,7 +89,7 @@ table.header td:nth-child(2) {
 
 table.band {
   padding-top: 17px;
-  width: 50%;
+  width: 60%;
   text-align: center;
   color: white;
 }
@@ -126,8 +130,13 @@ table.band td:nth-child(9) {
   width: 15%;
 }
 
+table.twocol td{
+  padding: 5%}
 
-li {
-padding-bottom: 15px;
+table.twocol td:nth-child(1) {
+  width: 35%;
 }
 
+table.twocol td:nth-child(2) {
+  width: 65%;
+}
