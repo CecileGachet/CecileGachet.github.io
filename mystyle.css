@@ -140,3 +140,48 @@ table.twocol td:nth-child(1) {
 table.twocol td:nth-child(2) {
   width: 65%;
 }
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: white;
+  color: navy;
+  font-weight: bold;
+  font-size: 1.17em;
+  cursor: pointer;
+  padding: 16px;
+  width: 100%;
+  text-align: left;
+  border: 3px solid #087ca7;
+  border-radius: 12px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  outline: none;
+  transition: 0.1s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) #f8f4e3 */
+.active, .accordion:hover {
+  background-color: #a188a6; /* light mauve */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #ede8ed;
+  display: none;
+  overflow: hidden;
+}
+
+/* Sign on the button + or - to indicate whether the panel is open */
+.accordion:after {
+  content: '+';
+  font-size: 1.1em;
+  color: navy;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: '-';
+}
